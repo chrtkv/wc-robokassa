@@ -27,11 +27,11 @@ if (!\current_user_can('activate_plugins')) {
     if (isset($_REQUEST['settings-updated']))
     {
         include 'labelsGenerator.php';
-
-        if (get_option('robokassa_country_code') == 'RU') {
-            wp_redirect('admin.php?page=robokassa_payment_credit');
-            exit;
-        }
+        // NOTE: Disable annoying redirect to the credit settings page
+        // if (get_option('robokassa_country_code') == 'RU') {
+        //     wp_redirect('admin.php?page=robokassa_payment_credit');
+        //     exit;
+        // }
     }
 
     $formProperties = [
