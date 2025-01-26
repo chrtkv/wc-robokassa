@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Robokassa WooCommerce
- * Description: Данный плагин добавляет на Ваш сайт метод оплаты Робокасса для WooCommerce
+ * Plugin Name: Robokassa WooCommerce (Unofficial)
+ * Description: Плагин добавляет метод оплаты Робокасса для WooCommerce
  * Plugin URI: /wp-admin/admin.php?page=main_settings_rb.php
  * Author: Robokassa
  * Author URI: https://robokassa.com
